@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1396740007036216}
+  m_IsPrefabParent: 1
+--- !u!1 &1396740007036216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4184840271777536}
+  - component: {fileID: 60349850469683886}
+  - component: {fileID: 114567273367591396}
+  m_Layer: 0
+  m_Name: CholeraHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4184840271777536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396740007036216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03, y: -0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60349850469683886
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396740007036216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.22955588, y: -0.4132454}
+      - {x: -0.2952235, y: -0.3290536}
+      - {x: -0.14803484, y: -0.10605644}
+      - {x: -0.41790083, y: 0.6810756}
+      - {x: 0.0701544, y: 0.6199882}
+      - {x: -0.042009145, y: 0.74395895}
+      - {x: -0.36828545, y: 0.7544005}
+      - {x: -0.49509647, y: 0.63652635}
+      - {x: -0.438041, y: 0.09281303}
+      - {x: -0.37262228, y: -0.14284037}
+      - {x: -0.49431828, y: -0.23050235}
+      - {x: -0.48427895, y: -0.42481825}
+      - {x: -0.4650953, y: -0.475764}
+      - {x: -0.389694, y: -0.5511341}
+      - {x: -0.21685103, y: -0.6997659}
+      - {x: 0.033962727, y: -0.6791749}
+      - {x: 0.09270641, y: -0.6741302}
+      - {x: 0.44383976, y: -0.6899202}
+      - {x: 0.37388918, y: -0.66956925}
+      - {x: 0.426285, y: -0.6819453}
+      - {x: 0.36950466, y: -0.51977944}
+      - {x: 0.1061022, y: -0.5101433}
+      - {x: -0.21820429, y: -0.46808502}
+      - {x: -0.054180413, y: 0.0515814}
+      - {x: 0.021634312, y: 0.13959958}
+      - {x: 0.044203967, y: 0.60230803}
+--- !u!114 &114567273367591396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396740007036216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2cd61ad6951674785eff4ed63aea7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawntimer: 0
+  onceOnly: 0
+  monster: {fileID: 0}
+  item: {fileID: 1061749643235198, guid: 65fd65e4b0f18f34ba1c0dad3d6b3855, type: 2}
+  monsterHP: 1

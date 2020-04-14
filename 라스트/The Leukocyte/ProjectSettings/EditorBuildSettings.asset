@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: 38c4582f030cbff4db11f3202130ac27
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: a5320f35d84418b449b5e30c9a69ea6d
+  - enabled: 1
+    path: Assets/Scenes/Game_square.unity
+    guid: 86b52a5ad146b674d812e6c67f441b9a
+  - enabled: 1
+    path: Assets/Scenes/Map/Armory.unity
+    guid: 721974861874ff044873fad2e2203fcd
+  - enabled: 1
+    path: Assets/Scenes/Map/Portion Mart.unity
+    guid: 76447cdc5684bc64a823a39aa9844ecd
+  - enabled: 1
+    path: Assets/Scenes/Map/1.unity
+    guid: 4a6a9a17969de1e45adca67293dd4980
+  - enabled: 1
+    path: Assets/Scenes/Map/2.unity
+    guid: a4830a83eb5098a4f95a9ad7060a1f75
+  - enabled: 1
+    path: Assets/Scenes/Map/3.unity
+    guid: de88b6c231da11d489dd135085367a3b
+  - enabled: 1
+    path: Assets/Scenes/Map/HOME.unity
+    guid: 131e9e0434db9cd47abfc9b4acde1b46
+  - enabled: 1
+    path: Assets/Scenes/Map/Town.unity
+    guid: 6441be8a0998c4d4eb0339cc1da0c85c
+  - enabled: 1
+    path: Assets/Scenes/Map/2-1.unity
+    guid: 5d665d4a13b1f614690536c7defc8a82
+  - enabled: 1
+    path: Assets/Scenes/Map/2-2.unity
+    guid: 972c9fd74b6e6a545974f34939abf287
+  - enabled: 1
+    path: Assets/Scenes/Map/4.unity
+    guid: b0f2fe4c28f60014d8c00e58b1548299
+  - enabled: 1
+    path: Assets/Scenes/Map/4-1.unity
+    guid: 52750e1ee5c3f424ebfe07a3cbde4a2a
+  - enabled: 1
+    path: Assets/Scenes/Map/4-2.unity
+    guid: e3a175731e7e69f4aaf3d698a9a6aedb
+  - enabled: 1
+    path: Assets/Scenes/Map/BlackMarket.unity
+    guid: 62d0f83b08832bb42ba9fe4ec7876d1c
+  - enabled: 1
+    path: Assets/Scenes/Map/Brain.unity
+    guid: 3dc44913dedcbcb4eac9a359ba4ddc70
+  - enabled: 1
+    path: Assets/Scenes/Map/Capillary.unity
+    guid: f2e95ee197c198e419f7e008c851d94e
+  - enabled: 1
+    path: Assets/Scenes/Map/Capillary_Home.unity
+    guid: 7dbc3d0715d235b4780a70e2b901368e
+  - enabled: 1
+    path: Assets/Scenes/Map/Capillary_Portion Mart.unity
+    guid: 11b906acbbb3971458dbc426fac1ddf5
+  - enabled: 1
+    path: Assets/Scenes/Map/Gallbladder.unity
+    guid: 6b5454b169778f347bb77affff35a737
+  - enabled: 1
+    path: Assets/Scenes/Map/Heart1.unity
+    guid: b78299e02f548914a828797231dfe578
+  - enabled: 1
+    path: Assets/Scenes/Map/Heart2.unity
+    guid: ac8a36c1c3a0ea74abba9d65f6dfa60d
+  - enabled: 1
+    path: Assets/Scenes/Map/Heart3.unity
+    guid: 192a8690d14f73a4d9f8c48ea7479e94
+  - enabled: 1
+    path: Assets/Scenes/Map/Heart4.unity
+    guid: b1ed5007629fc3c429133230c677c704
+  - enabled: 1
+    path: Assets/Scenes/Map/Liver.unity
+    guid: 21dd5aefe18bb9f41914e8bbaa240cd2
+  - enabled: 1
+    path: Assets/Scenes/Map/Lungs.unity
+    guid: c483abe44be00a64d8233834b0d8dfd4
+  - enabled: 1
+    path: Assets/Scenes/Map/Lymp.unity
+    guid: ce6e72dd12bb2534e883c8994a732ba3
+  - enabled: 1
+    path: Assets/Scenes/Map/Stomach.unity
+    guid: 9033dd3abcfdf6640bf85edbfa75ab4c
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: 9e59389d74f46414f9c510002e580fd1
+  - enabled: 1
+    path: Assets/ending/Ending1.unity
+    guid: e5e3f6df0eaf5aa439bc6f3fb2219dbb
+  - enabled: 1
+    path: Assets/ending/Ending2.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/ending/Ending3.unity
+    guid: 00000000000000000000000000000000

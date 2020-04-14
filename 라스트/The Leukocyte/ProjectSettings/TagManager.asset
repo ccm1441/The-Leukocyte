@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - weapon
+  - Monster
+  - Hole
+  - PortalToUp
+  - PortalToDown
+  - PortalToLeft
+  - PortalToRight
+  - Hole2
+  - Hole3
+  - Sword
+  - EnterMarket
+  - etc
+  - potion
+  - Foot
+  - MonsterHitBox
+  - PortalToHidden
+  - hidden
+  - PlayerBody
+  - Spike
+  - AcidHitBox
+  - InjectionBullet
+  - tablet
+  - Mes
+  - tamiflu
+  - penicillin
+  - tablet2
+  - tablet3
+  - scissors
+  - saw
+  - legendweapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 784061261
+    locked: 0
+  - name: 2
+    uniqueID: 2000121491
+    locked: 0
+  - name: 3
+    uniqueID: 3361090545
+    locked: 0
+  - name: 4
+    uniqueID: 1568159043
+    locked: 0
+  - name: ForeGround
+    uniqueID: 70873475
+    locked: 0
+  - name: Scene
+    uniqueID: 1541943171
+    locked: 0

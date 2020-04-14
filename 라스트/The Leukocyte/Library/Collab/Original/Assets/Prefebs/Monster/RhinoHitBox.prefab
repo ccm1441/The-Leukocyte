@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1337359788631196}
+  m_IsPrefabParent: 1
+--- !u!1 &1337359788631196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4282720779210204}
+  - component: {fileID: 60489437456599004}
+  - component: {fileID: 114792133743440988}
+  m_Layer: 0
+  m_Name: RhinoHitBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4282720779210204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337359788631196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03, y: -0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60489437456599004
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337359788631196}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.34377357, y: 0.20446585}
+      - {x: 0.5647876, y: 0.3228755}
+      - {x: 0.39753124, y: 0.15808165}
+      - {x: 0.4903228, y: -0.038740423}
+      - {x: 0.47211, y: -0.36169693}
+      - {x: 0.6198399, y: -0.5201537}
+      - {x: 0.4082062, y: -0.38378814}
+      - {x: 0.23562166, y: -0.5341906}
+      - {x: 0.0029780585, y: -0.51310825}
+      - {x: -0.25442627, y: -0.5539087}
+      - {x: -0.3947871, y: -0.46346453}
+      - {x: -0.14803484, y: -0.10605644}
+      - {x: -0.26414135, y: 0.3993101}
+      - {x: 0.0049721915, y: 0.29407886}
+      - {x: 0.088354796, y: 0.3365722}
+      - {x: -0.11197069, y: 0.44139764}
+      - {x: -0.14443329, y: 0.6138941}
+      - {x: -0.13883904, y: 0.3982575}
+      - {x: -0.23436907, y: 0.19654848}
+      - {x: -0.438041, y: 0.09281303}
+      - {x: -0.47039488, y: -0.14284037}
+      - {x: -0.46987513, y: 0.08725931}
+      - {x: -0.32947186, y: -0.31074974}
+      - {x: -0.40806082, y: 0.0049524494}
+      - {x: -0.6589215, y: -0.4254426}
+      - {x: -0.5468142, y: -0.2143413}
+      - {x: -0.49499634, y: 0.2238917}
+      - {x: -0.62150455, y: 0.38075453}
+      - {x: -0.42273977, y: 0.27598247}
+      - {x: -0.30713108, y: 0.40216383}
+      - {x: 0.03572914, y: 0.08241679}
+      - {x: -0.120844156, y: -0.2799358}
+      - {x: 0.10085413, y: 0.04287078}
+      - {x: 0.2727377, y: -0.28253338}
+      - {x: 0.18649074, y: -0.22144364}
+      - {x: 0.027045937, y: -0.005683165}
+      - {x: 0.25724527, y: -0.5034305}
+      - {x: 0.267369, y: -0.5382935}
+      - {x: 0.00018188544, y: -0.21682476}
+      - {x: -0.49101475, y: -0.2849348}
+      - {x: -0.67233396, y: -0.448245}
+      - {x: -0.48781326, y: -0.27209735}
+      - {x: -0.36282757, y: -0.38152042}
+      - {x: 0.021634312, y: 0.13959958}
+      - {x: 0.1093857, y: 0.34158066}
+--- !u!114 &114792133743440988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337359788631196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2cd61ad6951674785eff4ed63aea7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Respawntimer: 0
+  onceOnly: 0
+  monster: {fileID: 0}
+  item: {fileID: 1061749643235198, guid: 65fd65e4b0f18f34ba1c0dad3d6b3855, type: 2}
+  monsterHP: 1
